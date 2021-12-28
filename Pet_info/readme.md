@@ -1,2 +1,0 @@
-Pet_info
-dowon
