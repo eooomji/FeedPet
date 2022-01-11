@@ -9,7 +9,7 @@ import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-public class MainActivity extends AppCompatActivity {
+public class SignIn extends AppCompatActivity {
 
     EditText inputID = findViewById(R.id.inputID);
     EditText inputPW = findViewById(R.id.inputPW);
@@ -23,7 +23,7 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {    // onCreate() : 시작점 역할
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_sign_in);
         Failmsg.setVisibility(View.INVISIBLE);
 
         LOGIN.setOnClickListener(new View.OnClickListener() {
